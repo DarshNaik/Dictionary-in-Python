@@ -19,4 +19,7 @@ def meaning(word):
         return "The Word is not defined; or perhaps you must be joking(Nice One!!^_^)"
 
 find_word = input("Enter the word you want meaning for : ")
-print(meaning(find_word))
+
+op = meaning(find_word)
+for i in op:
+    print(i)
