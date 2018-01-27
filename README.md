@@ -6,6 +6,6 @@
         
         Wrong input
         
-        Capitalisation error
+        Capitalization error
 
 ##### ***Under Construction(will try to make a GUI soon; PEACE!)***
