@@ -1,4 +1,11 @@
 # Dictionary-in-Python
 ### Interactive Dictionary which gives meaning to words entered by the users
 
-##### ***Under Construction(More Features coming soon)***
+####  Some features include:
+        Spelling Mistakes
+        
+        Wrong input
+        
+        Capitalisation error
+
+##### ***Under Construction(will try to make a GUI soon; PEACE!)***
