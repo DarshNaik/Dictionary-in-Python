@@ -7,7 +7,9 @@ def meaning(word):
     word = word.lower()
     if word in source:
         return source[word]
-    elif len(get_close_matches(word,source.keys(),cutoff=0.8))>0:
+    elif word.title() in source: #if user entered "delhi" this will check for "Delhi" as well.
+        return source[word.title()]
+    elif len(get_close_matches(word,source.keys()))>0:
         ans = input("Did you mean %s instead?(Y/n) : " % get_close_matches(word,source.keys())[0])
         if ans.lower() == "y":
             return source[get_close_matches(word,source.keys())[0]]
