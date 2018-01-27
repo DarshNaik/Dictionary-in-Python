@@ -21,5 +21,8 @@ def meaning(word):
 find_word = input("Enter the word you want meaning for : ")
 
 op = meaning(find_word)
-for i in op:
-    print(i)
+if type(op) == list:
+    for i in op:
+        print(i)
+else:
+    print(op)
