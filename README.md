@@ -12,4 +12,6 @@
         
         Phrase Meanings to some extent
 
+
+
 ##### ***Under Construction(will try to make a GUI soon)***
