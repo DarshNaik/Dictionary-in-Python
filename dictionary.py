@@ -30,3 +30,5 @@ if type(op) == list:
         print(i)
 else:
     print(op)
+
+    
