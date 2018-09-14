@@ -3,6 +3,7 @@ from difflib import get_close_matches
 
 source = json.load(open("data.json"))
 
+
 def meaning(word):
     word = word.lower()
     if word in source:
