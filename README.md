@@ -15,3 +15,4 @@
 
 
 ##### ***Under Construction(will try to make a GUI soon)***
+@himi98 also wants to contribute. Please ping me whenever you need help.
